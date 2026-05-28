@@ -1,6 +1,6 @@
-# Sistema de Estoque
+# Sistema de Controle de Estoque
 
-Sistema desenvolvido em Python utilizando SQLite para controle de estoque.
+Sistema desenvolvido em Python utilizando SQLite para controle de produtos.
 
 ## Funcionalidades
 
@@ -9,6 +9,16 @@ Sistema desenvolvido em Python utilizando SQLite para controle de estoque.
 - Busca de produtos
 - Edição de produtos
 - Exclusão de produtos
+- Relatório do estoque
+
+## Dados armazenados
+
+- Código do produto
+- Nome do item
+- Quantidade
+- Unidade de medida
+- Preço unitário
+- Preço total
 
 ## Tecnologias utilizadas
 
@@ -20,10 +30,8 @@ Sistema desenvolvido em Python utilizando SQLite para controle de estoque.
 Execute o arquivo:
 
 ```bash
-python sistema_estoque.py
+python cadastro_produtos.py
 ```
-
-O banco de dados será criado automaticamente.
 
 ## Autor
 
